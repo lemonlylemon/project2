@@ -7,6 +7,12 @@
  *
  * @author 345954069
  */
-public class MisinformationCase {
+public class MisinformationCase extends EthicsCase {
+    private String mediaType;
+    
+    public MisinformationCase(String caseTitle, String description, String mediaType){
+        super(caseTitle, description, "Misinformation Case");
+        
+    }
     
 }
